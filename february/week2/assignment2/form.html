@@ -1,1 +1,43 @@
+<html>
+<head>
+<style>
+.input{
+width:300px;
+height:30px;
+}
+div{
+width:850px;
+height:700px;
+border:1px solid;
+background-color:white;
+}
+.button{
+width:80px;
+height:28px;
+border-radius:10px;
 
+}
+</style>
+</head>
+<body style="text-align:center;margin:80px;">
+<div>
+<form>
+<h1 style="font-family:Arial;">Contact Form</h1>
+<h4 style="font-family:arial">Fill & Submit the form</h4> 
+<input class="input" type="text" placeholder="Enter Your First Name" required><br><br>
+<input class="input" type="text" placeholder="Enter Your Last Name"><br><br>
+<input class="input" type="email" placeholder="Enter Your Email Address" required><br><br>
+<input class="input" type="text" placeholder="Contact Number"><br><br>
+<label style="font-family:Arial;" >Select Gender:</label>
+<input type="radio" id="gender" value="Male" name="gender"><label for="gender" style="font-family:Arial;">Male</label>
+<input type="radio" id="gender" value="Female" name="gender"><label for="gender" style="font-family:Arial;">Female</label><br><br>
+<label for="bday" style="font-family:Arial;">Date Of Birth:</label>
+<input type="date" id="bday" name="birthdate" required><br><br>
+<input class="input" type="text" placeholder="Comments"><br><br>
+<input type="checkbox" id="check "name="check">T&C Apply<br><br>
+<input class="button" type="Submit" style="color:black;">  <input class="button" type="reset">
+</form>
+<a href="index.html"  style="font-family:arial;color:black;">Back</a>
+</div>
+</body>
+</html>
