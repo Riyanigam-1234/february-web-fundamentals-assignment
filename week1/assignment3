@@ -1,0 +1,14 @@
+12th feb assignment 
+
+Q1.print a minimum of num and maximum of num from a given array.
+Ans:
+
+take array as an input=a[4,3,8,10,6]
+int small=0,max=0;
+for i=1 to array.length
+  if(a[small]>a[i])
+   small=i
+  if(a[i]>a[max])
+   max=i
+print min as a[small] and max as a[max]
+end
