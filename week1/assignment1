@@ -1,1 +1,30 @@
+1.Make flowchart/Algo/pesudo code for quadratic equation print no. of roots
 
+2.Make flowchart/Algo/pesudo code for a die which is rolled 3 times and print 
+whether 2 values same or 3 value same or none are same
+
+1 Ans:
+
+Take user input for a,b,c,x;
+calculate
+ax2+bx+c
+D=b2~4ac 
+if(D>0)
+print "Two distinct roots"
+else if(D==0)
+print "Equal roots"
+else
+print "No real roots"
+end
+
+2 Ans:
+
+generate random for a between 1 to 6
+generate random for b between 1 to 6
+generate random for c between 1 to 6
+if(a==b or b==c or a==c )
+print "pair"
+elseif(a==b && b==c)
+print "three of king"
+else 
+nothing is same
