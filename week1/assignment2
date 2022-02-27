@@ -1,0 +1,21 @@
+11th feb assignment
+
+Q1.From the database of students print student name and subject whose age is between Five to Ten years 
+and name starts with 'A'.(just logic)
+Ans:
+
+for 1 to 200 {
+if((Age>=5 && Age <=10) && (Name.charAt[0]=='A'))
+print student.name and student.course
+}
+end
+
+Q2.print student name whose city is either of Delhi,Bangalore,Mumbai
+Ans:
+
+for 1 to 200{
+if(student.city=="Delhi" or student.city=="Bangalore" or student.city=="Mumbai")
+{
+print student.name and subjects
+}
+end
