@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation and Wiki Page</title>
+</head>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style :none;
+}
+body{
+    background-color: cornsilk;
+}
+.header{
+       width: 100%;
+       height: 60px;
+       background-color: rgb(76, 30, 102);
+       display :flex;
+       justify-content: space-around;
+       align-items: center;
+       color: white;
+}
+.menu ul{
+         display: flex;
+         align-items: center;
+}
+.menu ul li a{
+    padding: 5px 18px;
+    color :white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 19px;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+.menu ul li a:hover{
+    color :rosybrown;
+    background-color: whitesmoke;
+    padding :5px 18px;
+    margin :3px 10px;
+    display: block;
+    transition: 0.4s;
+}
+h3{
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-style:groove;
+}
+.link a{
+   display:flex;
+   justify-content:baseline;
+   padding-top: 10px;
+   border-bottom: 1px solid black;
+   color:blueviolet;
+}
+.link a:hover{
+     color:blue;
+ }
+.link a:active{
+   color: violet;
+}
+h2{
+   margin-top: 10px;
+   padding-bottom: 5px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.footer a{
+    text-decoration: none;
+    color:purple;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer a:hover{
+    color:coral;
+    transition: 0.6s;
+}
+</style>
+<body>
+    <div class="header">
+            <div class="logo">
+                <h1>Geekster Wiki</h1>
+            </div>
+            <div class="menu">
+                 <ul>
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#">About</a></li>
+                     <li><a href="#">Profile</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                 </ul>
+                 <p>All Copyrights are reserved!!</p>
+            </div>
+    </div>
+    <div class="main">
+        <div class="link">
+            <h4>Class Link</h4>
+            <br>
+                <a href="#">https://us06web.zoom.us/j/7749007179</a>
+        </div>
+        <div class="link">
+            <h4>Class Code Link</h4>
+            <br>
+                <a href="#">https://docs.google.com/spreadsheets/d/1a46Npq wGZu3FoA8l1mMJOKhn-t1u4eiuNMTuFoSrE/edit?usp=sharing</a>
+        </div>
+        <div class="link">
+            <h4>Avenger Sheet</h4>
+            <br>
+                <a href="#">https://github.com//geeksterin/Feb22-Web-Fundamentals.git</a>
+        </div>
+        <div class="link">
+            <h4>Feedback Form</h4>
+            <br>
+                <a href="#">https://docs.google.com/forms/d/e/1FAlpQLScOdVG3xJsp7Jgraflg8-wwNkqNDtONGUl8c8YdopRqg1oQ/viewform</a>
+        </div>
+        <div class="link">
+            <h5>Mentor Session Request Link</h5><br>
+               <a href="#">https://docs.google.com/forms/d/e/1FalpQLSczyOMG9MACOLRG/-U18tquZmXjDHjlKdlHpFAWgy1Pk7y4LTQ/viewform</a>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#">Copyright</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Complaints</a>
+            <a href="#">Terms and Conditions</a>
+</body>
+</html>
